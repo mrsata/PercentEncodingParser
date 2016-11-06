@@ -17,13 +17,13 @@ public class PercentEncodingTranslator {
 	static Frame f = new Frame("PercentEncodingTranslator");
 	static TextArea t1 = new TextArea("");
 	static TextArea t2 = new TextArea("");
-	static Dialog dialog = new Dialog(f, "完成！");
+	static Dialog dialog = new Dialog(f, "Finished");
 
 	public static void main(String[] args) {
 
-		Button b1 = new Button("翻译");
-		Button b2 = new Button("退出");
-		final Button b3 = new Button("确定");
+		Button b1 = new Button("Parse");
+		Button b2 = new Button("Exit");
+		final Button b3 = new Button("OK");
 
 		b2.addActionListener(new ActionListener() {
 
